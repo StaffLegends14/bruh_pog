@@ -83,40 +83,40 @@ function setup() {
 
 function preload()
 {
-	BG_main = loadImage("VFX/BG_start.png");
+	BG_main = loadImage("./VFX/BG_start.png");
 
-	BG_the = loadImage("VFX/BG_end.png")
+	BG_the = loadImage(./"VFX/BG_end.png")
 
-	Start = loadImage("VFX/start.png");
+	Start = loadImage("./VFX/start.png");
 
-	hitman = loadImage("VFX/hitman.png");
+	hitman = loadImage("./VFX/hitman.png");
 
-	pman = loadImage("VFX/upman.png");
+	pman = loadImage("./VFX/upman.png");
 
-	l = loadImage("VFX/LEFT.png");
+	l = loadImage("./VFX/LEFT.png");
 
-	r = loadImage("VFX/RIGHT.png");
+	r = loadImage("./VFX/RIGHT.png");
 
-	u = loadImage("VFX/UP.png");
+	u = loadImage("./VFX/UP.png");
 
-	d = loadImage("VFX/DOWN.png");
+	d = loadImage("./VFX/DOWN.png");
 
-	stabber = loadImage("VFX/Dagger_right.png");
+	stabber = loadImage("./VFX/Dagger_right.png");
 
-	ww = loadImage("VFX/Wall.png")
+	ww = loadImage("./VFX/Wall.png")
 
-	ww2 = loadImage("VFX/Sidewall.png")
+	ww2 = loadImage("./VFX/Sidewall.png")
 
-	lazabeam = loadImage("VFX/Laser.png")
+	lazabeam = loadImage("./VFX/Laser.png")
 
-	manimg = loadImage("VFX/upman.png");
+	manimg = loadImage("./VFX/upman.png");
 
-	BR = loadImage("VFX/Bullet_right.png");
+	BR = loadImage("./VFX/Bullet_right.png");
 
-	controled = loadImage("VFX/Help.png");
+	controled = loadImage("./VFX/Help.png");
 
 
-	BG_console = loadImage("VFX/BG_about.png");
+	BG_console = loadImage("./VFX/BG_about.png");
 
 }
 
